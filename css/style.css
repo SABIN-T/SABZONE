@@ -12,6 +12,7 @@ header {
     background-image: url('../images/space.jpg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0 0.6rem 0.9rem rgba(32, 30, 30, 0.2);
 }
 
 nav {
