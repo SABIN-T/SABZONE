@@ -102,15 +102,24 @@ section .btntwo {
 
 .change_content::after {
     content: '';
-    animation: changetext 5s infinite linear;
+    animation: changetext 10s infinite linear;
     color: #00b894;
 }
 
 @keyframes changetext {
     0% {
-        content: "MAYBE";
+        content: " MAYBE";
     }
     20% {
-        content: "WORLD OF PHYSICS";
+        content: " WORLD OF PHYSICS";
     }
+}
+footer {
+	
+	left: 0%; top: 0%; bottom: 0%;
+	background-color: transparent;
+	color: #fff;
+	padding: 30px;
+	text-align: center;
+	margin-top: 100%;
 }
