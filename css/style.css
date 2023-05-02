@@ -102,23 +102,23 @@ section .btntwo {
 
 .change_content::after {
     content: '';
-    animation: changetext 10s infinite linear;
+    animation: changetext 5s infinite linear;
     color: #00b894;
 }
 
 @keyframes changetext {
     0% {
-        content: " MAYBE";
+        content: " TO MAYBE";
     }
     20% {
-        content: " WORLD OF PHYSICS";
+        content: " TO WORLD OF PHYSICS";
     }
 }
 footer {
 	
 	height: 15vh;
     	background: transparent;
-    	color: rgb(236, 230, 245);
+    	color: #000;
     	display: flex;
     	justify-content: space-between;
     	align-items: center;
