@@ -108,9 +108,9 @@ section .btntwo {
 
 @keyframes changetext {
     0% {
-        content: "GOALS";
+        content: "MAYBE";
     }
     20% {
-        content: "RESEARCH";
+        content: "WORLD OF PHYSICS";
     }
 }
