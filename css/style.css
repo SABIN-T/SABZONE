@@ -100,6 +100,8 @@ section .btntwo {
     background: #fff;
     color: #000;
 }
+section .btntwo:hover{
+	color: #00b894;
 
 .change_content::after {
     content: '';
