@@ -32,7 +32,7 @@ nav .logo {
 }
 
 nav .menu {
-    width: 40%;
+    width: 25%;
     display: flex;
     justify-content: space-around;
 }
@@ -80,7 +80,7 @@ section p {
 }
 
 section a {
-    padding: 12px 30px;
+    padding: 30px;
     border-radius: 4px;
     outline: none;
     text-transform: uppercase;
@@ -100,8 +100,8 @@ section .btntwo {
     background: #fff;
     color: #000;
 }
-section .btntwo:hover{
-	color: #00b894;
+section .btntwo::hover{
+    background: #00b894;
 
 .change_content::after {
     content: '';
